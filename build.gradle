@@ -7,8 +7,8 @@ version = '0.0.3.5.5.3-SNAPSHOT'
 
 subprojects {
   apply plugin: 'java'
-  sourceCompatibility = 1.5
-  targetCompatibility = 1.5
+  sourceCompatibility = 1.7
+  targetCompatibility = 1.7
 
   task packageSources(type: Jar) {
 classifier = 'sources'
