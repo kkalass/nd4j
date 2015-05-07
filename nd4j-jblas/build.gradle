@@ -1,0 +1,8 @@
+
+description = 'nd4j-jblas'
+dependencies {
+    compile group: 'org.jblas', name: 'jblas', version:'1.2.3'
+  compile project(':nd4j-api')
+    testCompile group: 'junit', name: 'junit', version:'4.12'
+  testCompile project(':nd4j-api')
+}

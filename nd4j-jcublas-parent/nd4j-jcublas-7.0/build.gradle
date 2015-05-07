@@ -1,0 +1,7 @@
+
+description = 'nd4j-jcublas-7.0'
+dependencies {
+  compile project(':nd4j-jcublas-parent:nd4j-jcublas-common')
+    compile group: 'junit', name: 'junit', version:'4.11'
+  compile project(':nd4j-api')
+}

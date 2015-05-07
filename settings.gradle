@@ -1,0 +1,46 @@
+rootProject.name = 'nd4j'
+include ':nd4j-api'
+include ':nd4j-jblas'
+include ':nd4j-jdbc:nd4j-jdbc-api'
+include ':nd4j-jdbc:nd4j-jdbc-mysql'
+include ':nd4j-jdbc'
+include ':nd4j-netlib-blas'
+include ':nd4j-jcublas-parent:nd4j-jcublas-common'
+include ':nd4j-jcublas-parent:nd4j-jcublas-6.5'
+include ':nd4j-jcublas-parent:nd4j-jcublas-5.5'
+include ':nd4j-jcublas-parent:nd4j-jcublas-6.0'
+include ':nd4j-jcublas-parent:nd4j-jcublas-7.0'
+include ':nd4j-jcublas-parent'
+include ':nd4j-scala-api'
+include ':nd4j-instrumentation'
+include ':nd4j-scala-notebook:iscala-macros'
+include ':nd4j-scala-notebook:iscala-display'
+include ':nd4j-scala-notebook:iscala-core'
+include ':nd4j-scala-notebook'
+include ':nd4j-java'
+include ':nd4j-jocl-parent:nd4j-jocl-1.9'
+include ':nd4j-jocl-parent:nd4j-jocl-common'
+include ':nd4j-jocl-parent'
+
+project(':nd4j-api').projectDir = "$rootDir/nd4j-api" as File
+project(':nd4j-jblas').projectDir = "$rootDir/nd4j-jblas" as File
+project(':nd4j-jdbc:nd4j-jdbc-api').projectDir = "$rootDir/nd4j-jdbc/nd4j-jdbc-api" as File
+project(':nd4j-jdbc:nd4j-jdbc-mysql').projectDir = "$rootDir/nd4j-jdbc/nd4j-jdbc-mysql" as File
+project(':nd4j-jdbc').projectDir = "$rootDir/nd4j-jdbc" as File
+project(':nd4j-netlib-blas').projectDir = "$rootDir/nd4j-netlib-blas" as File
+project(':nd4j-jcublas-parent:nd4j-jcublas-common').projectDir = "$rootDir/nd4j-jcublas-parent/nd4j-jcublas-common" as File
+project(':nd4j-jcublas-parent:nd4j-jcublas-6.5').projectDir = "$rootDir/nd4j-jcublas-parent/nd4j-jcublas-6.5" as File
+project(':nd4j-jcublas-parent:nd4j-jcublas-5.5').projectDir = "$rootDir/nd4j-jcublas-parent/nd4j-jcublas-5.5" as File
+project(':nd4j-jcublas-parent:nd4j-jcublas-6.0').projectDir = "$rootDir/nd4j-jcublas-parent/nd4j-jcublas-6.0" as File
+project(':nd4j-jcublas-parent:nd4j-jcublas-7.0').projectDir = "$rootDir/nd4j-jcublas-parent/nd4j-jcublas-7.0" as File
+project(':nd4j-jcublas-parent').projectDir = "$rootDir/nd4j-jcublas-parent" as File
+project(':nd4j-scala-api').projectDir = "$rootDir/nd4j-scala-api" as File
+project(':nd4j-instrumentation').projectDir = "$rootDir/nd4j-instrumentation" as File
+project(':nd4j-scala-notebook:iscala-macros').projectDir = "$rootDir/nd4j-scala-notebook/macros" as File
+project(':nd4j-scala-notebook:iscala-display').projectDir = "$rootDir/nd4j-scala-notebook/display" as File
+project(':nd4j-scala-notebook:iscala-core').projectDir = "$rootDir/nd4j-scala-notebook/core" as File
+project(':nd4j-scala-notebook').projectDir = "$rootDir/nd4j-scala-notebook" as File
+project(':nd4j-java').projectDir = "$rootDir/nd4j-java" as File
+project(':nd4j-jocl-parent:nd4j-jocl-1.9').projectDir = "$rootDir/nd4j-jocl-parent/nd4j-jocl-1.9" as File
+project(':nd4j-jocl-parent:nd4j-jocl-common').projectDir = "$rootDir/nd4j-jocl-parent/nd4j-jocl-common" as File
+project(':nd4j-jocl-parent').projectDir = "$rootDir/nd4j-jocl-parent" as File

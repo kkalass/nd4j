@@ -1,0 +1,7 @@
+
+description = 'nd4j-java'
+dependencies {
+    compile group: 'com.github.fommil.netlib', name: 'all', version:'1.1.2'
+    compile group: 'org.jblas', name: 'jblas', version:'1.2.3'
+  compile project(':nd4j-api')
+}

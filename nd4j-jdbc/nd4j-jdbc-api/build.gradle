@@ -1,0 +1,8 @@
+
+description = 'nd4j-jdbc-api'
+dependencies {
+    compile group: 'com.mchange', name: 'c3p0', version:'0.9.5-pre5'
+    compile group: 'org.apache.commons', name: 'commons-io', version:'1.3.2'
+    compile group: 'org.reflections', name: 'reflections', version:'0.9.9-RC1'
+  compile project(':nd4j-api')
+}

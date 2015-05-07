@@ -1,0 +1,17 @@
+
+description = ''
+dependencies {
+  compile project(':nd4j-scala-api')
+  compile project(':nd4j-scala-notebook:iscala-display')
+    compile group: 'org.zeromq', name: 'jeromq', version:'0.3.4'
+    compile group: 'com.typesafe.slick', name: 'slick_2.10', version:'2.1.0'
+    compile group: 'org.xerial', name: 'sqlite-jdbc', version:'3.7.2'
+    compile group: 'com.github.scala-incubator.io', name: 'scala-io-file_2.10', version:'0.4.3'
+    compile group: 'net.sf.jopt-simple', name: 'jopt-simple', version:'4.6'
+    compile group: 'org.json4s', name: 'json4s-ext_2.10', version:'3.2.10'
+    compile(group: 'org.apache.spark', name: 'spark-sql_2.10', version:'1.2.1') {
+       /* This dependency was originally in the Maven provided scope, but the project was not of type war.
+       This behavior is not yet supported by Gradle, so this dependency has been converted to a compile dependency.
+       Please review and delete this closure when resolved. */
+    }
+}

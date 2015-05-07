@@ -1,0 +1,11 @@
+
+description = 'nd4j-jcublas-6.5'
+dependencies {
+  compile project(':nd4j-jcublas-parent:nd4j-jcublas-common')
+    compile group: 'junit', name: 'junit', version:'4.11'
+  compile project(':nd4j-api')
+    compile group: 'org.nd4j', name: 'jcuda', version:'6.5'
+    compile group: 'org.nd4j', name: 'jcufft', version:'6.5'
+    compile group: 'org.nd4j', name: 'jcurand', version:'6.5'
+    compile group: 'org.nd4j', name: 'jcusparse', version:'6.5'
+}

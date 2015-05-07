@@ -1,0 +1,11 @@
+
+description = 'nd4j-jcublas'
+dependencies {
+    compile group: 'com.google.guava', name: 'guava', version:'18.0'
+    compile group: 'org.nd4j', name: 'jcublas', version:'6.5'
+    compile group: 'org.nd4j', name: 'jcuda', version:'6.5'
+    compile group: 'org.nd4j', name: 'jcufft', version:'6.5'
+    compile group: 'org.nd4j', name: 'jcurand', version:'6.5'
+    compile group: 'org.nd4j', name: 'jcusparse', version:'6.5'
+  compile project(':nd4j-api')
+}

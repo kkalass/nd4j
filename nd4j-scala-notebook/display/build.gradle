@@ -1,0 +1,7 @@
+
+description = ''
+dependencies {
+  compile project(':nd4j-scala-notebook:iscala-macros')
+    compile group: 'org.pegdown', name: 'pegdown', version:'1.4.2'
+    compile group: 'org.ow2.asm', name: 'asm-all', version:'4.1'
+}

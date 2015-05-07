@@ -1,0 +1,11 @@
+
+description = 'nd4j-instrumentation'
+dependencies {
+  compile project(':nd4j-api')
+    compile(group: 'io.dropwizard', name: 'dropwizard-core', version:'0.8.0') {
+exclude(module: 'log4j-over-slf4j')
+exclude(module: 'slf4j-log4j12')
+exclude(module: 'log4j')
+    }
+  testCompile project(':nd4j-jblas')
+}

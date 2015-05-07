@@ -1,0 +1,6 @@
+
+description = ''
+dependencies {
+    compile group: 'com.typesafe.play', name: 'play-json_2.10', version:'2.3.2'
+    compile group: 'org.scalamacros', name: 'quasiquotes_2.10', version:'2.0.1'
+}
